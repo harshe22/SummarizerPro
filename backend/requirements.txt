@@ -1,0 +1,53 @@
+# SummarizePro - AI-Powered Content Summarization Platform
+# Updated requirements with latest versions and GPU optimization
+
+# Core Web Framework
+fastapi==0.110.0
+uvicorn[standard]==0.27.1
+python-multipart==0.0.9
+
+# AI/ML Core Libraries (CPU version - install CUDA version separately if needed)
+torch==2.2.1
+torchaudio==2.2.1
+transformers==4.38.2
+sentence-transformers==2.5.1
+accelerate==0.27.2
+
+# Content Processing
+requests==2.31.0
+beautifulsoup4==4.12.3
+PyPDF2==3.0.1
+PyMuPDF==1.23.26
+python-docx==1.1.0
+aiofiles==23.2.1
+pandas==2.2.1
+numpy==1.26.4
+
+# YouTube & Audio Processing
+yt-dlp==2024.3.10
+ffmpeg-python==0.2.0
+openai-whisper==20231117
+
+# Text Analysis & NLP
+keybert==0.8.4
+bertopic==0.16.0
+scikit-learn==1.4.1.post1
+
+# Text-to-Speech & Audio
+gtts==2.5.1
+pyttsx3==2.90
+
+# Export & Document Generation
+reportlab==4.1.0
+python-docx==1.1.0
+
+# Utilities
+python-dotenv==1.0.1
+aiofiles==23.2.1
+
+# Development & Monitoring
+psutil==5.9.8
+rich==13.7.1
+
+# Excel writer engine
+openpyxl==3.1.2
